@@ -1,0 +1,169 @@
+*{box-sizing:border-box;}
+
+body{
+}
+
+header{
+  padding:35px;
+  height:50px;
+  background-color: #004762;
+
+}
+
+.container{
+  display:block;
+  padding:30px;
+
+}
+.box{
+  flex: 0 0 100%;
+  padding:20px
+
+}
+
+.box-1{
+  background-color:#F5EFDA;
+  padding-bottom:100%;
+  /* margin-left: 10px;
+  margin-right:10px; */
+
+}
+
+.box-2{
+  background-color: #C32225;
+  padding-bottom:100%;
+}
+
+.box-3{
+  background-color: #5E4737;
+  padding-bottom:100%;
+}
+
+.box-4{
+  background-color: #CF9C47;
+  padding-bottom:100%;
+}
+
+footer{
+  background-color:#70041E;
+  padding: 35px;
+  height:50px;
+}
+
+@media (max-width: 480px){
+  body{
+    background-color:#F5EFDA;
+  }
+
+  header{
+    padding:35px;
+    background-color: #004762;
+    height:50px;
+
+  }
+
+  .container{
+    display: block;
+    padding:20px;
+
+  }
+  .box{
+
+  }
+
+  .box-1{
+    background-color:#D8D8D8;
+    padding-bottom:100%;
+    border-radius:30%;
+
+
+  }
+
+  .box-2{
+    background-color: #C32225;
+    padding-bottom:100%;
+    border-radius:30%;
+  }
+
+  .box-3{
+    background-color: #5E4737;
+    padding-bottom:100%;
+    border-radius:30%;
+  }
+
+  .box-4{
+    background-color: #CF9C47;
+    padding-bottom:100%;
+    border-radius:30%;
+  }
+
+  footer{
+    background-color:#70041E;
+    padding: 35px;
+    height:50px;
+  }
+
+
+
+}
+
+@media (max-width: 320px){
+  body{
+    background-color: #D8D8D8;
+  }
+
+  header{
+    padding:35px;
+    background-color: #004762;
+    height:50px;
+
+  }
+
+  .container{
+    display:block;
+    padding:0;
+
+  }
+  .box{
+    flex-basis:100%;
+
+
+  }
+
+  .box-1{
+    background-color: #C32225;
+    padding-bottom:100%;
+    border-radius:50%;
+
+    /* margin-left: 10px;
+    margin-right:10px; */
+
+  }
+
+  .box-2{
+    background-color: #F5EFDA;
+    padding-bottom:100%;
+    border-radius:50%;
+  }
+
+  .box-3{
+    background-color: #5E4737;
+    padding-bottom:100%;
+    border-radius:50%;
+  }
+
+  .box-4{
+    background-color: #CF9C47;
+    padding-bottom:100%;
+    border-radius:50%;
+  }
+
+
+  footer{
+    background-color:#70041E;
+    padding: 35px;
+    height:50px;
+
+  }
+
+}
