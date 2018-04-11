@@ -1,0 +1,45 @@
+.container{
+  background-color:rgb(25, 25, 35);
+  padding:5px;
+  height:800px;
+}
+
+.title{
+  color:rgb(30,40,64);
+  font-size:80pt;
+  font-family:'Ubuntu',sans-serif;
+  top:30px;
+  left:30px;
+
+}
+
+.door{
+  background-color:white;
+  width:120pt;
+  height:200pt;
+  z-index:5;
+}
+
+.sub{
+  color:grey;
+  font-size:15pt;
+  top:30px;
+  left:30px;
+}
+
+.text{
+  color:white;
+  font-size:8pt;
+  width:30%;
+}
+
+img{
+  height:80%;
+  width:80%;
+
+}
+
+.draggable {
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
