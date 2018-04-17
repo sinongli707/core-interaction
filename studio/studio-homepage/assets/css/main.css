@@ -1,0 +1,134 @@
+img{
+  width:75%;
+}
+body{
+  background-color: rgb(172, 177, 176,70%);
+}
+
+.title{
+  z-index:4;
+  position:absolute;
+  font-size: 60pt;
+  background-color:rgb(230, 175, 20,80%);
+  top:12.2%;
+  left:43.4%;
+  color:white;
+  padding:5pt;
+  font-style:bold;
+  font-family:'PT Sans Caption', sans-serif;
+  letter-spacing: 1pt;
+}
+
+.theme{
+  z-index:4;
+  position:absolute;
+  font-size: 50pt;
+  color:rgb(230, 175, 20,80%);
+  background-color:white;
+  padding:5pt;
+  font-style:bold;
+  font-family:'PT Sans Caption', sans-serif;
+  letter-spacing: 1pt;
+
+  left:40%;
+  top:30%;
+
+}
+
+.map{
+
+}
+
+.base{
+  position:absolute;
+  top:15%;
+  left:3%;
+
+}
+
+.hall{
+  width:30%;
+  position:absolute;
+  top:19%;
+  left:9.5%;
+
+}
+
+.store{
+  width:25%;
+  position:absolute;
+  left:51%;
+  top:74%;
+}
+
+.name{
+  color:white;
+  font-size: 20pt;
+  z-index:4;
+  position:absolute;
+}
+
+.statue{
+  width:8%;
+  position:absolute;
+  left:48%;
+  top:53%;
+}
+
+.poster{
+  width:10%;
+  position:absolute;
+  left:60%;
+  top:45%;
+}
+
+.back{
+  position:absolute;
+  font-size: 50pt;
+  background-color:rgb(230, 175, 20,80%);
+  color:white;
+  padding:5pt;
+  font-style:bold;
+  font-family:'PT Sans Caption', sans-serif;
+  letter-spacing: 1pt;
+  left:85%;
+  top:80%;
+}
+
+.home{
+  position:absolute;
+  font-size: 50pt;
+  color:rgb(230, 175, 20,80%);
+  background-color:white;
+  padding:5pt;
+  font-style:bold;
+  font-family:'PT Sans Caption', sans-serif;
+  letter-spacing: 1pt;
+  left:85%;
+  top:65%;
+}
+
+.shelf{
+  width:80%;
+  position:absolute;
+  top:10%;
+  left:5%;
+}
+
+.catalog{
+  width:15%;
+  position:absolute;
+  top:16%;
+  left:15%;
+}
+
+.book{
+  width:15%;
+  position:absolute;
+  top:43%;
+  left:30%;
+}
+
+a:link{
+  text-decoration: none;
+}
