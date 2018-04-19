@@ -129,6 +129,13 @@ body{
   left:30%;
 }
 
-a:link{
-  text-decoration: none;
+/* a:link{
+    animation-name:pulse;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
 }
+
+@keyframes pulse{
+  from{transform:translateY(0%);}
+    to{transform:translateY(10%);}}
+} */
