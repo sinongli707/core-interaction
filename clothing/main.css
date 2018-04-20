@@ -1,8 +1,24 @@
  @import url("https://use.typekit.net/jat4ohh.css");
 
+body{
+  background-image: url(1.jpg);
+  background-size:1500px auto;
+}
+
 .title{
   font-family: "los-feliz", serif;
-
   font-style: bold;
   font-weight: 400;
+  font-size:100pt;
+  text-align: center;
+  margin-top:20%;
+  letter-spacing: 5pt;
+  color:white;
+}
+
+h2{
+  text-align: center;
+  color:#FFF8DC;
+  text-decoration: underline;
+  margin-top:30px;
 }
