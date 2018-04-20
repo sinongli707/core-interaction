@@ -22,3 +22,30 @@ h2{
   text-decoration: underline;
   margin-top:30px;
 }
+
+.logo-N{
+  font-family: 'los-feliz',serif;
+  color:white;
+  font-size: 90pt;
+  position:absolute;
+  left:42%;
+  top:10%;
+}
+
+.logo-D{
+  font-family: 'los-feliz',serif;
+  color:#4682B4;
+  font-size: 90pt;
+  position:absolute;
+  left:45%;
+  top:10%;
+}
+
+.logo-S{
+  font-family: 'los-feliz',serif;
+  color:white;
+  font-size: 90pt;
+  position:absolute;
+  left:47%;
+  top:10%;
+}
