@@ -1,43 +1,44 @@
 img{
-  width:75%;
+  /* width:75%; */
 }
 body{
   background-color: rgb(172, 177, 176,70%);
 }
+.disc{
+  width:75%;
+}
+
+.side-1{
+  width:25%;
+  height:590pt;
+  background-color:rgb(239,235,229);
+  position:relative;
+  float:right;
+  display:inline-flex;
+}
 
 .title{
-  z-index:4;
-  position:absolute;
   font-size: 60pt;
-  background-color:rgb(230, 175, 20,80%);
-  top:12.2%;
-  left:43.4%;
-  color:white;
   padding:5pt;
   font-style:bold;
-  font-family:'PT Sans Caption', sans-serif;
+  font-family:'EG Garamond', serif;
   letter-spacing: 1pt;
 }
 
 .theme{
-  z-index:4;
-  position:absolute;
   font-size: 50pt;
   color:rgb(230, 175, 20,80%);
-  background-color:white;
   padding:5pt;
   font-style:bold;
-  font-family:'PT Sans Caption', sans-serif;
+  font-family:'EG Garamond', serif;
   letter-spacing: 1pt;
 
-  left:40%;
-  top:30%;
-
 }
 
-.map{
-
-}
+/* .map{
+width:80%;
+display:inline-flex;
+} */
 
 .base{
   position:absolute;
@@ -47,18 +48,18 @@ body{
 }
 
 .hall{
-  width:30%;
+  /* width:30%; */
   position:absolute;
-  top:19%;
-  left:9.5%;
+  top:17.5%;
+  left:8%;
 
 }
 
 .store{
-  width:25%;
+  /* width:25%; */
   position:absolute;
-  left:51%;
-  top:74%;
+  left:45%;
+  top:69%;
 }
 
 .name{
@@ -68,21 +69,25 @@ body{
   position:absolute;
 }
 
+.wall{
+  width:50%;
+}
+
 .statue{
-  width:8%;
+  /* width:8%; */
   position:absolute;
-  left:48%;
-  top:53%;
+  left:42%;
+  top:48%;
 }
 
 .poster{
   width:10%;
   position:absolute;
-  left:60%;
-  top:45%;
+  left:50%;
+  top:35%;
 }
 
-.back{
+/* .back{
   position:absolute;
   font-size: 50pt;
   background-color:rgb(230, 175, 20,80%);
@@ -93,9 +98,9 @@ body{
   letter-spacing: 1pt;
   left:85%;
   top:80%;
-}
+} */
 
-.home{
+/* .home{
   position:absolute;
   font-size: 50pt;
   color:rgb(230, 175, 20,80%);
@@ -106,7 +111,7 @@ body{
   letter-spacing: 1pt;
   left:85%;
   top:65%;
-}
+} */
 
 .shelf{
   width:80%;
@@ -116,16 +121,16 @@ body{
 }
 
 .catalog{
-  width:15%;
+  /* width:15%; */
   position:absolute;
-  top:16%;
+  top:18.5%;
   left:15%;
 }
 
 .book{
-  width:15%;
+  /* width:15%; */
   position:absolute;
-  top:43%;
+  top:45%;
   left:30%;
 }
 
