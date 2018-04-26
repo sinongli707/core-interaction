@@ -1,20 +1,107 @@
+*{box-sizing:border-box}
+ @import url("https://use.typekit.net/pjn5kqv.css");
+
+
 body{
-  background-color: rgba(202, 209, 199);
+  background-color: rgba(239, 235, 229);
 }
 
+.head-box{
+  width:98%;
+    display:inline-flex;
+    background-color: rgb(194,210,202);
+    margin:10pt;
+}
 
+.exit{
+  width:80pt;
+  height:30pt;
+  position:absolute;
+  background-color: rgb(178,174,165);
+  z-index:5;
+  font-family:'mr-eaves-modern', sans-serif;
+  font-weight: bold;
+  padding:5pt;
+  letter-spacing: 8px;
+  text-align: center;
+  padding-top:10pt;
+
+}
 
 .title{
-  margin-top:30pt;
-  font-family: 'PT', sans-serif;
-  font-size:45pt;
+  width:95%;
+    font-family:'mr-eaves-modern', sans-serif;
+    text-align:right;
+    height:10%;
+    letter-spacing: 5pt;
+
+}
+
+.content{
+  font-family:'mr-eaves-modern', sans-serif;
+  font-size:14pt;
+  display:inline-flex;
+  line-height:22pt;
+  background-color: rgb(214,210,204);
+  padding:10pt;
 
 }
 
 .container-1{
+  width:32%;
+  display:inline-block;
+  margin:10pt;
+  padding:15pt;
+
+}
+
+.container-2{
   width:40%;
-  display:inline-flex;
-  line-height: 20pt;
-  padding:10pt;
-  margin-left:20pt;
+  display:inline-block;
+  margin:10pt;
+  padding:15pt 25pt 15pt 25pt;
+
+
+}
+
+.container-3{
+  width:24%;
+  display:inline-block;
+  margin:10pt;
+  padding:15pt 25pt 15pt 25pt;
+
+}
+
+.style-1{
+  background-color:white;
+
+}
+
+.style-2{
+  background-color: #ACB1B0;
+  color:#EFEBE5;
+
+}
+
+.style-3{
+  background-color: #E3E2DB;
+  color:white;
+
+}
+
+.disc{
+  width:30%;
+}
+
+a:link{
+  text-decoration: none;
+  color:#707576;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+img{
+  margin-top:20pt;
 }
