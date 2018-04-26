@@ -2,7 +2,7 @@ var randomLat = ((Math.random() * 180) - 90).toFixed(7);
 var randomLong = ((Math.random() * 360) - 180).toFixed(7);
 
 // API Request
-fetch('http://api.sunrise-sunset.org/json?lat='+ randomLat +'&lng='+ randomLong +'&date=today')
+fetch('https://api.sunrise-sunset.org/json?lat='+ randomLat +'&lng='+ randomLong +'&date=today')
     .then(function(response) {
         // Get the response and format it to JSON
         return response.json();
