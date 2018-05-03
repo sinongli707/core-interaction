@@ -146,4 +146,18 @@ img{
   img{
     margin-left:-10pt;
   }
+
+  .title{
+    width:95%;
+      font-family:'mr-eaves-modern', sans-serif;
+      text-align:right;
+      height:10%;
+      letter-spacing: 5pt;
+
+  }
+
+  .exit{
+    position:fixed;
+  }
+
 }
