@@ -87,7 +87,7 @@ span{
   width:10%;
   margin-left: 43%;
   margin-top:20%;
-  position:absolute;
+  position:fixed;
   z-index:5;
 }
 
@@ -98,8 +98,16 @@ span{
 
 }
 
+.base-2{
+  position:absolute;
+  top:15%;
+  left:3%;
+
+}
+
+
 .hall{
-  /* width:30%; */
+
   position:absolute;
   top:17.5%;
   left:8%;
@@ -108,7 +116,7 @@ span{
 
 .store{
   /* width:25%; */
-  position:absolute;
+  position:fixed;
   left:45%;
   top:69%;
 }
@@ -170,57 +178,134 @@ a:link{
   text-decoration: none;
 }
 
-iframe {
-  width: 100vw;
-  height: 100vh;
-  left: 0;
-  position: absolute;
-  float: left;
+
+.mobile{
+  display:none;
 }
 
-#page_1 {
-  top: 0;
+#page-2 {
+  display:none;
 }
 
-#page_2 {
-  top: 100vh;
+#page-3 {
+  display:none;
 }
 
-#page_3 {
-  top: 200vh;
-}
-
-nav {
-  position: fixed;
-  top: 0;
-  background: blue;
-}
 
 @media only screen and (max-width:550px){
   body {
-    overflow: scroll;
+
+
   }
 
   .side-1 {
     width: 100%;
     height: 30vh;
-    background-color:rgb(255,0,0);
-    left: 0%;
+    background-color:rgb(112,117,118);
+    left:0;
+    top:0;
+    position:fixed;
     z-index: 1;
+    display:flex;
+
   }
 
   .set-rise {
-    height: 90%;
-    position:absolute;
+    height: 22vh;
+    width:40vw;
+  }
+
+  .title{
+    height:20vh;
+    width:55vw;
+    font-size: 25pt;
+
   }
 
   .text{
-    font-size:12pt;
-    line-height: 15pt;
+    font-size:8pt;
+    line-height: 12pt;
   }
 
-  .longtitude{
-    left:50%;
-    position:absolute;
+.base{
+  display:none;
+}
+
+.exit{
+display:none;
   }
+
+  .map{
+    display:none;
+  }
+  .identity{
+    width:10%;
+    top:20vh;
+    left:25vw;
+    position:fixed;
+
+  }
+
+
+  .hall{
+    display:none;
+
+
+  }
+
+  .store{
+    /* width:25%; */
+    position:absolute;
+    top:50vh;
+  }
+
+
+  .wall{
+    width:50%;
+  }
+
+  .statue{
+    width:30%;
+    position:absolute;
+
+  }
+
+  .poster{
+    width:20%;
+    position:absolute;
+    left:50%;
+    top:35%;
+  }
+
+
+
+  .shelf{
+  display:none;
+  }
+
+  .catalog{
+    position:absolute;
+    top:35vh;
+    left:5vh;
+  }
+
+  .book{
+    /* width:15%; */
+    position:absolute;
+    top:45%;
+    left:30%;
+  }
+
+  .boucher{
+    position:absolute;
+
+
+  }
+
+.mobile{
+    display:inline-flex;
+  }
+
+
+
 }
