@@ -106,7 +106,7 @@ img{
   margin-top:20pt;
 }
 
-@media (max-width: 480px){
+@media (max-device-width: 480px){
   .content{
     width:100vw;
     font-family:'mr-eaves-modern', sans-serif;
