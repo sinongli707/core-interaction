@@ -106,7 +106,10 @@ img{
   margin-top:20pt;
 }
 
-@media (max-device-width: 480px){
+@media (max-width: 500px),
+    (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2),
+    (max-width: 1000px) and (min-resolution: 144dpi){
+      
   .content{
     width:100vw;
     font-family:'mr-eaves-modern', sans-serif;
