@@ -163,7 +163,8 @@ img{
   }
 
   .exit{
-    position:fixed;
+    display:none;
   }
+
 
 }
