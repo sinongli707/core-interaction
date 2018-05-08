@@ -211,7 +211,7 @@ a:link{
     position:absolute;
     left:0;
     display:inline-flex;
-    padding:5pt;
+    /* padding:5pt; */
     color:rgb(112,117,118);
     top:0;
 
@@ -307,7 +307,7 @@ a:link{
     position:absolute;
     top:100vh;
     width:85vw;
-    left:20vw;
+    left:10vw;
 
   }
 
